@@ -1,6 +1,6 @@
-# boltz-visual
+# Boltzmann Visualization
 
-`boltz-visual` plots the Boltzmann distribution:
+`boltzmann.py` plots the Boltzmann distribution:
 
 ![Population](./img/boltzeqn.png)
 
