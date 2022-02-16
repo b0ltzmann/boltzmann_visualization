@@ -18,12 +18,12 @@ class Boltz:
         self.kb = pc.physical_constants["Boltzmann constant"][0]
         self.amu = pc.physical_constants["unified atomic mass unit"][0]
         # Initial parameters (F2 as an example):
-        self.T0 = 300  # temperature      / K
-        self.L0 = 0.5  # box length       / nm
+        self.T0 = 300  # temperature / K
+        self.L0 = 0.5  # box length / nm
         self.m0 = 38  # mass of particle / amu
-        self.kf0 = 445  # spring constant  / Nm-1
-        self.mu0 = 9.5  # reduced mass     / amu
-        self.r0 = 141  # bond length      / pm
+        self.kf0 = 445  # spring constant / Nm-1
+        self.mu0 = 9.5  # reduced mass / amu
+        self.r0 = 141  # bond length / pm
 
     @property
     def levels(self):
